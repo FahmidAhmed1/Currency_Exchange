@@ -1,4 +1,4 @@
-import requests  
+import requests
 response = requests.get('https://api.exchangerate.host/latest')
 import json
 data = json.loads(response.text) 
@@ -30,3 +30,5 @@ while x>y: #Having a dictonary to store the last stock price. It compares and se
     x = x-1  
 print(df["base"])
 print(new_dict)
+
+    
